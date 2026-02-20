@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saikat Bangladesh - Bio Link</title>
+    <meta name="description" content="Welcome to my bio link. Connect with me on various social media platforms.">
+    <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="config.js"></script>
+</head>
+<body>
+    <!-- Animated Background -->
+    <div class="animated-bg">
+        <div class="gradient-orb orb-1"></div>
+        <div class="gradient-orb orb-2"></div>
+        <div class="gradient-orb orb-3"></div>
+        <canvas id="particleCanvas"></canvas>
+    </div>
+
+    <!-- Main Container -->
+    <div class="container">
+        <!-- Profile Section -->
+        <div class="profile-section">
+            <!-- Action Buttons Inside Profile -->
+            <div class="action-buttons">
+                <button class="share-btn" id="shareBtn" title="Share">
+                    <i class="fas fa-share-alt"></i>
+                </button>
+                <button class="subscribe-btn" id="subscribeBtn" title="Subscribe">
+                    <i class="far fa-envelope"></i>
+                </button>
+            </div>
+            <div class="profile-image">
+                <img src="assets/images/logo.png" alt="Saikat Bangladesh">
+            </div>
+            <h1 class="profile-name">Saikat Bangladesh</h1>
+            <p class="profile-tagline">Welcome To My Bio Link</p>
+        </div>
+
+        <!-- Social Links -->
+        <div class="links-container">
+            <a href="#" class="social-link youtube" target="_blank">
+                <div class="icon-wrapper"><img src="assets/images/youtube.png" alt="YouTube"></div>
+                <div class="link-content">
+                    <span class="platform-name">YouTube</span>
+                    <span class="username">@saikatbangladesh</span>
+                </div>
+            </a>
+
+            <a href="#" class="social-link youtube" target="_blank">
+                <div class="icon-wrapper"><img src="assets/images/youtube.png" alt="YouTube"></div>
+                <div class="link-content">
+                    <span class="platform-name">YouTube</span>
+                    <span class="username">@mrbangladesh</span>
+                </div>
+            </a>
+
+            <a href="#" class="social-link facebook" target="_blank">
+                <div class="icon-wrapper"><img src="assets/images/facebook.png" alt="Facebook"></div>
+                <div class="link-content">
+                    <span class="platform-name">Facebook</span>
+                    <span class="username">saikatbangladesh</span>
+                </div>
+            </a>
+
+            <a href="#" class="social-link instagram" target="_blank">
+                <div class="icon-wrapper"><img src="assets/images/instagram.png" alt="Instagram"></div>
+                <div class="link-content">
+                    <span class="platform-name">Instagram</span>
+                    <span class="username">@saikatbangladesh</span>
+                </div>
+            </a>
+
+            <a href="#" class="social-link twitter" target="_blank">
+                <div class="icon-wrapper"><img src="assets/images/x.png" alt="X"></div>
+                <div class="link-content">
+                    <span class="platform-name">X/Twitter</span>
+                    <span class="username">@saikatbangladesh</span>
+                </div>
+            </a>
+
+            <a href="#" class="social-link tiktok" target="_blank">
+                <div class="icon-wrapper"><img src="assets/images/tiktok.png" alt="TikTok"></div>
+                <div class="link-content">
+                    <span class="platform-name">TikTok</span>
+                    <span class="username">@saikatbangladesh</span>
+                </div>
+            </a>
+
+            <a href="#" class="social-link kick" target="_blank">
+                <div class="icon-wrapper"><img src="assets/images/kick.png" alt="Kick"></div>
+                <div class="link-content">
+                    <span class="platform-name">Kick</span>
+                    <span class="username">saikatbangladesh</span>
+                </div>
+            </a>
+
+            <a href="#" class="social-link twitch" target="_blank">
+                <div class="icon-wrapper"><img src="assets/images/twitch.png" alt="Twitch"></div>
+                <div class="link-content">
+                    <span class="platform-name">Twitch</span>
+                    <span class="username">saikatbangladesh</span>
+                </div>
+            </a>
+
+            <a href="#" class="social-link reddit" target="_blank">
+                <div class="icon-wrapper"><img src="assets/images/reddit.png" alt="Reddit"></div>
+                <div class="link-content">
+                    <span class="platform-name">Reddit</span>
+                    <span class="username">u/saikatbangladesh</span>
+                </div>
+            </a>
+
+            <a href="#" class="social-link pinterest" target="_blank">
+                <div class="icon-wrapper"><img src="assets/images/pinterest.png" alt="Pinterest"></div>
+                <div class="link-content">
+                    <span class="platform-name">Pinterest</span>
+                    <span class="username">saikatbangladesh</span>
+                </div>
+            </a>
+
+            <a href="#" class="social-link whatsapp" target="_blank">
+                <div class="icon-wrapper"><img src="assets/images/whatsapp.png" alt="WhatsApp"></div>
+                <div class="link-content">
+                    <span class="platform-name">WhatsApp</span>
+                    <span class="username">+880 1234567890</span>
+                </div>
+            </a>
+
+            <a href="#" class="social-link telegram" target="_blank">
+                <div class="icon-wrapper"><img src="assets/images/telegram.png" alt="Telegram"></div>
+                <div class="link-content">
+                    <span class="platform-name">Telegram</span>
+                    <span class="username">@saikatbangladesh</span>
+                </div>
+            </a>
+
+            <a href="#" class="social-link discord" target="_blank">
+                <div class="icon-wrapper"><img src="assets/images/discord.png" alt="Discord"></div>
+                <div class="link-content">
+                    <span class="platform-name">Discord</span>
+                    <span class="username">saikatbangladesh</span>
+                </div>
+            </a>
+
+            <a href="#" class="social-link blogger" target="_blank">
+                <div class="icon-wrapper"><img src="assets/images/blogger.png" alt="Blogger"></div>
+                <div class="link-content">
+                    <span class="platform-name">Blogger</span>
+                    <span class="username">saikatbangladesh</span>
+                </div>
+            </a>
+        </div>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <p>Copyright © <span id="currentYear">2025</span> Saikat Bangladesh. All rights reserved.</p>
+            <p class="footer-credit">Made by Saikat Bangladesh</p>
+        </footer>
+    </div>
+
+    <!-- Subscribe Modal -->
+    <div class="modal" id="subscribeModal">
+        <div class="modal-content">
+            <button class="close-modal" id="closeSubscribe"><i class="fas fa-times"></i></button>
+            <div class="modal-header">
+                <div class="modal-icon">
+                    <img src="assets/images/logo.png" alt="SB">
+                </div>
+                <h2>Saikat Bangladesh</h2>
+                <p>Receive the latest updates from <span class="highlight">Saikat Bangladesh</span> straight to your email inbox.</p>
+            </div>
+            <form class="subscribe-form" id="subscribeForm">
+                <input type="email" placeholder="you@email.com" required id="emailInput">
+                <button type="submit">Subscribe</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Share Modal -->
+    <div class="modal" id="shareModal">
+        <div class="modal-content share-modal">
+            <button class="close-modal" id="closeShare"><i class="fas fa-times"></i></button>
+            <h2>Share this Bio Link</h2>
+            
+            <div class="qr-code">
+                <img src="assets/images/qrcode.png" alt="QR Code" class="qr-image">
+            </div>
+
+            <div class="share-options">
+                <a href="https://twitter.com/intent/tweet?url=https://saikatbangladesh.github.io/" class="share-option" target="_blank">
+                    <i class="fab fa-twitter"></i>
+                    <span>Share on Twitter</span>
+                    <i class="fas fa-chevron-right"></i>
+                </a>
+
+                <a href="https://www.facebook.com/sharer/sharer.php?u=https://saikatbangladesh.github.io/" class="share-option" target="_blank">
+                    <i class="fab fa-facebook"></i>
+                    <span>Share on Facebook</span>
+                    <i class="fas fa-chevron-right"></i>
+                </a>
+
+                <a href="mailto:?subject=Check out my bio link&body=https://saikatbangladesh.github.io/" class="share-option">
+                    <i class="fas fa-envelope"></i>
+                    <span>Share via Email</span>
+                    <i class="fas fa-chevron-right"></i>
+                </a>
+            </div>
+
+            <div class="copy-link">
+                <input type="text" value="saikatbangladesh.github.io" id="linkInput" readonly>
+                <button id="copyBtn">Copy</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Toast Notification -->
+    <div class="toast" id="toast">
+        <i class="fas fa-check-circle"></i>
+        <span id="toastMessage">Link copied!</span>
+    </div>
+
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
